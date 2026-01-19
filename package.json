@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@substrate-system/scroll-lock": "^0.0.2",
-    "@substrate-system/web-component": "^0.0.28"
+    "@substrate-system/web-component": "^0.0.38"
   },
   "devDependencies": {
     "@substrate-system/debug": "^0.9.0",
@@ -56,20 +56,20 @@
     "@typescript-eslint/parser": "^8.7.0",
     "auto-changelog": "^2.4.0",
     "cssnano": "^7.0.3",
-    "esbuild": "^0.25.0",
+    "esbuild": "^0.27.2",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
     "markdown-toc": "^1.2.0",
     "postcss": "^8.5.1",
     "postcss-cli": "^11.0.0",
-    "postcss-nesting": "^13.0.1",
-    "stylelint": "^16.19.1",
-    "stylelint-config-standard": "^38.0.0",
+    "postcss-nesting": "^14.0.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-standard": "^40.0.0",
     "tap-spec": "^5.0.0",
     "tape-run": "^11.0.0",
     "typedoc": "^0.28.1",
     "typescript": "^5.7.3",
-    "vite": "^6.3.5"
+    "vite": "^7.3.1"
   },
   "author": "nichoth <nichoth@nichoth.com> (https://nichoth.com)",
   "license": "SEE LICENSE IN LICENSE"
