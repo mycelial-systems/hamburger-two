@@ -54,7 +54,8 @@ npm i -S @substrate-system/hamburger-two
 ```
 
 ## Use
-Import, then call `.define` to register the element with the default tag name,
+
+Just import; the library code calls `window.customElements.define`.
 `hamburger-two`.
 
 >
@@ -84,8 +85,6 @@ Application code should listen for hamburger events, and show/hide the menu.
 ```js
 import { HamburgerTwo } from '@substrate-system/hamburger-two'
 import '@substrate-system/hamburger-two/css'
-
-HamburgerTwo.define()
 
 // tag name is exposed as .TAG
 const el = document.querySelector(HamburgerTwo.TAG)
@@ -132,6 +131,7 @@ hamburger-two {
 ```
 
 ### events
+
 Typically you would use the tag in the DOM, then listen for events and show/hide
 a menu element in response.
 
@@ -263,7 +263,7 @@ Run some tests locally with [tape-run](https://github.com/tape-testing/tape-run)
 npm test
 ```
 
-## develop
+## Develop
 
 Start a localhost server of the example page.
 
