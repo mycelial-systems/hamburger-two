@@ -22,3 +22,10 @@ test('Hamburger', async t => {
 
     t.ok(el.hasAttribute('open'), 'should set the attribute')
 })
+
+test('all done', () => {
+    if (window) {
+        // @ts-expect-error tests
+        window.testsFinished = true
+    }
+})
