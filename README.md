@@ -8,7 +8,10 @@
 [![Common Changelog](https://nichoth.github.io/badge/common-changelog.svg)](./CHANGELOG.md)
 [![license](https://img.shields.io/badge/license-Big_Time-blue?style=flat-square)](LICENSE)
 
-Another hamburger menu, as a [web component](https://developer.mozilla.org/en-US/docs/Web/API/Web_components).
+Another hamburger menu, as a
+[web component](https://developer.mozilla.org/en-US/docs/Web/API/Web_components).
+This extends
+[@susbtrate-system/web-component](https://www.npmjs.com/package/@substrate-system/web-component).
 
 [See a live demo](https://substrate-system.github.io/hamburger-two/)
 
@@ -96,6 +99,11 @@ el?.isOpen = true
 el?.addEventListener(HamburgerTwo.event('open'), () => {
     debug('menu is open...')
     document.querySelector('.mobile-nav-menu')!.classList.add('open')
+})
+
+// or use .on, because this extends @substrate-system/web-component
+el.on('open', ev => {
+    // ...
 })
 
 el?.addEventListener(HamburgerTwo.event('close'), () => {
