@@ -42,7 +42,7 @@ for something similar but with different style.
   * [Import CSS](#import-css)
   * [Customize CSS via variables](#customize-css-via-variables)
 - [test](#test)
-- [develop](#develop)
+- [Develop](#develop)
 - [See also](#see-also)
 
 <!-- tocstop -->
